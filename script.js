@@ -32,7 +32,13 @@ function drawCaption() {
     }
 }
 
-
+const assets = {
+    yellow: 'https://i.imgur.com/O7oZJgT.png',
+    green: 'https://i.imgur.com/ZF6s192.png',
+    brown: 'https://i.imgur.com/DO8Qyy5.png',
+    glasses: 'https://i.imgur.com/QzA6JDh.png',
+    hat: 'https://i.imgur.com/jZoHMqU.png'
+};
 function randomize() {
     const bases = ['yellow', 'green', 'brown'];
     const accessories = ['none', 'glasses', 'hat'];
