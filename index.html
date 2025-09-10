@@ -7,5 +7,20 @@
 </head>
 <body>
     <h1>Nano Banana Tool</h1>
+    <canvas id="bananaCanvas" width="300" height="400"></canvas>
+    <div class="controls">
+        <select id="baseSelect">
+            <option value="yellow">Yellow Banana</option>
+            <option value="green">Green Banana</option>
+            <option value="brown">Brown Banana</option>
+        </select>
+        <select id="accessorySelect">
+            <option value="none">No Accessory</option>
+            <option value="glasses">Glasses</option>
+            <option value="hat">Hat</option>
+        </select>
+        <input type="text" id="captionInput" placeholder="Enter caption" />
+        <button onclick="randomize()">Randomize</button>
+        <button onclick="downloadImage()">Download PNG</button>
 </body>
 </html>
