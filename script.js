@@ -1,7 +1,6 @@
 const canvas = document.getElementById('bananaCanvas');
 glasses: 'https://i.imgur.com/QzA6JDh.png',
-    hat: 'https://i.imgur.com/jZoHMqU.png'
-};
+    hat: 'https://i.imgur.com/jZoHMqU.png';
 
 
 function draw() {
