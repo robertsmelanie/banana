@@ -1,8 +1,5 @@
 const canvas = document.getElementById('bananaCanvas');
-glasses: 'https://i.imgur.com/QzA6JDh.png',
-    hat: 'https://i.imgur.com/jZoHMqU.png';
-
-
+const ctx = canvas.getContext('2d');
 function draw() {
     const base = new Image();
     base.src = assets[baseSelect.value];
